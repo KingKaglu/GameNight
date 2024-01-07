@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Qyantity.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <div class="btn-cont">
+      <button onclick=" console.log('Quantity:' + Quantity)">
+        Check Quantity
+      </button>
+
+      <button
+        onclick="Quantity = Quantity + 1
+    console.log('Quantity : '+ Quantity);
+     "
+      >
+        Add To Cart
+      </button>
+
+      <button
+        onclick="Quantity = Quantity + 2;
+       console.log('Quantity : '+ Quantity);
+      "
+      >
+        +2
+      </button>
+
+      <button
+        onclick="Quantity = Quantity + 3;
+      console.log('Quantity : '+ Quantity);
+      "
+      >
+        +3
+      </button>
+
+      <button
+      
+      onclick="Quantity = Quantity - Quantity;
+      console.log('Quantity : '+ Quantity);
+      "+ 
+      
+      >Clear Quantity</button>
+    </div>
+
+    <div class="container2">
+      <script>
+        let Quantity = 0;
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="rps.css" />
+  </head>
+  <body>
+    <h1 class="welcome">მოგესალმები მარიამ ეს არის თამაში პირადად თქვენთვინა </h1>
+
+    <div class="game">
+      <button
+        onclick="const randomNumber = Math.random();
+
+        let compMove ='';
+ if(randomNumber >= 0 && randomNumber <=  1/3 ){
+    compMove = 'მაკრატელი';
+  
+ }
+ else if (randomNumber <= 2/3 && randomNumber > 1/3){
+    compMove =  'ფურცელი';
+ }
+else if (randomNumber > 2/3 && randomNumber <=1) {
+  compMove = 'ქვა';
+}
+
+console.log(compMove);
+
+let result = '';
+
+if (compMove === 'ქვა'){
+  result = 'ნიჩია';
+}
+else if (compMove === 'ფურცელი'){
+ result = 'შენ წააგე :)';
+}
+else if (compMove === 'მაკრატელი'){
+  result = 'მოიგე ნადიროო !!!';
+}
+
+alert('შენ აირჩიე ქვა კომპიუტერმა კი '+ compMove +' '+result);
+ 
+ ">
+        ქვა
+      </button >
+
+
+      <button
+      onclick="const randomNumber = Math.random();
+
+      let compMove ='';
+if(randomNumber >= 0 && randomNumber <=  1/3 ){
+  compMove = 'მაკრატელი';
+
+}
+else if (randomNumber <= 2/3 && randomNumber > 1/3){
+  compMove =  'ფურცელი';
+}
+else if (randomNumber > 2/3 && randomNumber <=1) {
+compMove = 'ქვა';
+}
+
+console.log(compMove);
+
+let result = '';
+
+if (compMove === 'ფურცელი'){
+result = 'ნიჩიაა';
+}
+else if (compMove === 'ქვა'){
+result = 'ვაუუ მოიგეე <3';
+}
+else if (compMove === 'მაკრატელი'){
+result = 'სამწუხაროდ მარიამ წააგე !!! ';
+}
+
+alert('შენ აირჩიე ფურცელი კომპიუტერმა კი '+ compMove +' '+result);
+
+"> ფურცელი</button>
+      
+
+      <button
+      
+      onclick="const randomNumber = Math.random();
+
+      let compMove ='';
+if(randomNumber >= 0 && randomNumber <=  1/3 ){
+  compMove = 'მაკრატელი';
+
+}
+else if (randomNumber <= 2/3 && randomNumber > 1/3){
+  compMove =  'ფურცელი';
+}
+else if (randomNumber > 2/3 && randomNumber <=1) {
+compMove = 'ქვა';
+}
+
+console.log(compMove);
+
+let result = '';
+
+if (compMove === 'მაკრატელი'){
+result = 'ნიჩიაა';
+}
+else if (compMove === 'ფურცელი'){
+result = 'ვაუუ მოიგეე <3';
+}
+else if (compMove === 'ქვა'){
+result = 'სამწუხაროდ მარიამ წააგე !!! ';
+}
+
+alert('შენ აირჩიე მაკრატელი კომპიუტერმა კი '+ compMove +' '+result);
+
+"
+      >მაკრატელი</button>
+    </div>
+    <script></script>
+  </body>
+</html>
